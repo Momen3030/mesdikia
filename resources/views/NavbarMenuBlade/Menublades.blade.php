@@ -1,12 +1,12 @@
 
 
-@if (empty(Session::get('id')))
+
     <!-- start small-head -->
     <section class="small-head wow fadeInDown" id="small-head">
         <div class="container">
             <div class="left">
                 <ul class="infolink">
-                    <li class="flo-right"><a class="colorwhite domain" href="#">بحث</a></li>
+                    <li class="flo-right"><a class="colorwhite domain" href="#search">بحث</a></li>
                     <li class="flo-right"><a class="colorwhite qwk-link" href="#">معلومات عنا</a></li>
                     <li class="flo-right"><a class="colorwhite qwk-link" href="#">حزم</a></li>
 
@@ -14,8 +14,20 @@
             </div>
 
             <div class="right">
-                <a class="colorwhite qwk-link" href="" data-toggle="modal" data-target="#login"><i class="fas fa-sign-in-alt"></i> تسجيل الدخول</a>
-                <a class="colorwhite qwk-link" href="" data-toggle="modal" data-target="#register"><i class="fas fa-lock-open"></i> تسجيل</a>
+
+                @if (! empty(Session::get('id')))
+                    <a class="colorwhite qwk-link" href="http://127.0.0.1:8000/add_product"><i class="fa fa-user text-center"></i> {{Session::get('name')}}</a>
+                @endif
+
+                {{--@if(!Session::get('id'))--}}
+
+                {{--@endif--}}
+
+                @if(empty(Session::get('id')))
+                    <a class="colorwhite qwk-link" href="" data-toggle="modal" data-target="#login"><i class="fas fa-sign-in-alt"></i> تسجيل الدخول</a>
+                    <a class="colorwhite qwk-link" href="" data-toggle="modal" data-target="#register"><i class="fas fa-lock-open"></i> تسجيل</a>
+                @endif
+
             </div>
         </div>
     </section>
@@ -129,7 +141,7 @@
 
                 <ul class="nav navbar-nav navbar-right select text-center">
                     <li class="active" ><a href=" {{ url('/homemesdakia') }}">الصفحة الرئيسية</a></li>
-                    <li class="dropdown dropbtn" style="display: none"><a href="{{ url('/vichle') }}">المركبات</a>
+                    <li class="dropdown dropbtn"><a href="{{ url('/vichle') }}">المركبات</a>
                         <div class="dropdown-content">
                             <div class="row">
                                 <div class="col-md-3">
@@ -235,7 +247,7 @@
                                     <a href="{{ url('/bullion') }}">السبـائك</a>
                                     <a href="{{ url('/currencies') }}">العمـلات</a>
                                     <a href="{{ url('/ornaments') }}"> الحُلـي</a>
-                                    <a href="{{ url('/gold_new_advertiser') }}">المعلن الجديد</a>
+                                    <a href="{{ url('/gold_new_advertiser') } }">المعلن الجديد</a>
                                 </div>
                                 <div class="col-md-3">
                                     <img class="img-responsive img_pos"  src="img/misdaqia-logo.png" alt="Chania" width="120" height="120">
@@ -280,5 +292,5 @@
     </nav>
         </nav>
     <!-- end navbar -->
-@endif
+
 
