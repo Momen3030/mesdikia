@@ -17,7 +17,6 @@
 
     <link rel="stylesheet" href="css/bootstrap-grid.min-4.css">
     <link rel="stylesheet" href="css/bootstrap.min-4.css">
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/hover.css">
     <link rel="stylesheet" href="css/animate.css">

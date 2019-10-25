@@ -1,4 +1,4 @@
-@include('Headers.profile_user_header');
+@include('Headers.profile_user_header')
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">
         <div class="container">
@@ -24,6 +24,15 @@
 
                     </a>
 
+                </div>
+                <div style="
+                   color: #fff;
+                    float: left;
+                    text-align: center;
+                    margin-top: 5px;
+                    margin-left: 20px;
+                     ">
+                    test@gmail.com
                 </div>
             </div>
 
@@ -71,7 +80,7 @@
 
                 <div class="togl">
                     <button class="tablinks btn btn-default btn-block btn_st" type="button" onclick="openCity(event, 'tog7')">
-                        ملفـات التنـزيل الرفميـة
+                         اضافاتي
                     </button>
                 </div>
                 <div class="togl">
@@ -130,11 +139,11 @@
                             <br>
                             <input type="text" name="password" value="{{Session::get('password')}}"  class="form-control" placeholder="Password">
                             <br>
-                            <input type="password" name="newPassword" value=""  class="form-control" placeholder="newPassword" required>
+                            <input type="password" name="newPassword" value=""  class="form-control" placeholder="New Password" required>
                             <br>
-                            <input type="password" name="confirmPassword" value=""  class="form-control" placeholder="confirmPassword" required>
+                            <input type="password" name="confirmPassword" value=""  class="form-control" placeholder="Confirm Password" required>
                             <br>
-                            <input type="submit" value="Edit" class="btn-primary">
+                            <input type="submit" value="Edit" class=" btn btn-primary">
                         </form>
                     </div>
                 </div>
@@ -812,14 +821,85 @@
                 </div>
                 <!-- ============================================== -->
                 <div class="tabcontent" id="tog7">
-                    <div class="card card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident6.
+                    <h4 class="text-center"> قائمه اضافاتي <hr class="ln"/></h4>
+                    <div class="text-center">
+                        <h3 class="text-center"> Cars </h3>
+                        <h3 class="text-center"> Cars </h3>
+                        <h3 class="text-center"> Cars </h3>
+                        <h3 class="text-center"> Cars </h3>
+
+
+
                     </div>
                 </div>
                 <!-- ============================================== -->
                 <div class="tabcontent" id="tog8">
                     <div class="card card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident7.
+                        <div id="model" class="model">
+                            <div class="row use-box">
+                                <div class="col-sm-6 col-md-4 cl">
+                                    <div class="card">
+                                        <div class="product">
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: #09c;">name</h5>
+                                                <h5>test</h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: #09c;">pactage type </h5>
+                                                <h5></h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: #09c;">price</h5>
+                                            </div>
+                                            <hr style="color: #09c;height: 2px">
+                                            <div class="d-flex justify-content-around">
+                                                <a onclick="editsubscribe()" class="btn btn-success">renewal</a>
+                                                <a href="https://mesdakiafinal.000webhostapp.com/cansel/18" class="btn btn-danger">cancel</a>
+                                            </div>
+                                            <div class="modal-body" id="subscribe_id">
+                                                <a href="https://mesdakiafinal.000webhostapp.com/sunshine_continue_pay/18/80/golden" class="btn btn-primary  btn-block"> Subscribe Gold</a>
+                                                <a href="https://mesdakiafinal.000webhostapp.com/sunshine_continue_pay/18/110/Platinum" class="btn btn-primary  btn-block"> Platinum subscription</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-body">
+                        <div id="model" class="model">
+                            <div class="row use-box">
+                                <div class="col-sm-6 col-md-4 cl">
+                                    <div class="card">
+                                        <div class="product">
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: #09c;">name</h5>
+                                                <h5>test</h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: #09c;">pactage type </h5>
+                                                <h5></h5>
+                                            </div>
+                                            <div class="d-flex justify-content-between">
+                                                <h5 style="color: #09c;">price</h5>
+                                            </div>
+                                            <hr style="color: #09c;height: 2px">
+                                            <div class="d-flex justify-content-around">
+                                                <a onclick="editsubscribe()" class="btn btn-success">renewal</a>
+                                                <a href="https://mesdakiafinal.000webhostapp.com/cansel/18" class="btn btn-danger">cancel</a>
+                                            </div>
+                                            <div class="modal-body" id="subscribe_id">
+                                                <a href="https://mesdakiafinal.000webhostapp.com/sunshine_continue_pay/18/80/golden" class="btn btn-primary  btn-block"> Subscribe Gold</a>
+                                                <a href="https://mesdakiafinal.000webhostapp.com/sunshine_continue_pay/18/110/Platinum" class="btn btn-primary  btn-block"> Platinum subscription</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <!-- ============================================== -->
@@ -831,7 +911,14 @@
                 <!-- ============================================== -->
                 <div class="tabcontent" id="tog10">
                     <div class="card card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident9.
+                        <h4 class="text-center"> قائمه المرتجعات <hr class="ln"/></h4>
+                        <div class="text-center">
+                            <h3 class="text-center"> Cars </h3>
+                            <h3 class="text-center"> Cars </h3>
+                            <h3 class="text-center"> Cars </h3>
+                            <h3 class="text-center"> Cars </h3>
+
+                        </div>
                     </div>
                 </div>
                 <!-- ============================================== -->
