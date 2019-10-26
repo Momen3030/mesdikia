@@ -32,7 +32,7 @@
                     margin-top: 5px;
                     margin-left: 20px;
                      ">
-                    test@gmail.com
+                   {{Session::get('email')}}
                 </div>
             </div>
 
