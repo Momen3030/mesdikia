@@ -247,7 +247,7 @@
                                     <a href="{{ url('/bullion') }}">السبـائك</a>
                                     <a href="{{ url('/currencies') }}">العمـلات</a>
                                     <a href="{{ url('/ornaments') }}"> الحُلـي</a>
-                                    <a href="{{ url('/gold_new_advertiser') } }">المعلن الجديد</a>
+                                    <a href="{{ url('/gold_new_advertiser') }}">المعلن الجديد</a>
                                 </div>
                                 <div class="col-md-3">
                                     <img class="img-responsive img_pos"  src="img/misdaqia-logo.png" alt="Chania" width="120" height="120">
