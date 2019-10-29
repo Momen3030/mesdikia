@@ -49,7 +49,7 @@
                 </div>
 
                 <hr/>
-                <a href="#" class="btn btn-primary btn_buy"> <i class="fa fa-shopping-cart"></i>  شـراء  المنتـج </a>
+                <a href="{{url('/userpayment')}}" class="btn btn-primary btn_buy"> <i class="fa fa-shopping-cart"></i>  شـراء  المنتـج </a>
             </div>
         </div>
     </div>

@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="675838ab-9529-44c0-a5fd-8e3cd016956c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Headers/profile_user_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Headers/profile_user_header.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages_profile_list/enter.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages_profile_list/enter.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/Basic_pages/highvalueproductdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Basic_pages/highvalueproductdetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,24 +145,26 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\courses\starup\masdaqia\amin'\learnlar3\learnlar3\app\Http\Controllers\Dashboard" />
-      <recent name="E:\courses\starup\masdaqia\Ameer\learnlar2.3\learnlar2\learnlar2\public" />
-      <recent name="E:\courses\starup\masdaqia\Ameer\learnlar2.3\learnlar2\learnlar2\resources\views\MenubarViews" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\courses\starup\masdaqia\amin'\learnlar3\learnlar3\resources\views\dashboard" />
       <recent name="E:\courses\starup\masdaqia\Ahmed ramadan\learnlar2\learnlar2\public\dashboard_files\css" />
       <recent name="E:\courses\starup\masdaqia\Ahmed ramadan\learnlar2\learnlar2\public\css" />
       <recent name="E:\courses\starup\masdaqia\Ahmed ramadan\learnlar2\learnlar2\public" />
       <recent name="E:\courses\starup\masdaqia\Ahmed ramadan\learnlar2\learnlar2\resources\views\dashboard\categorys" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/" />
+      <recent name="E:\courses\starup\masdaqia\amin'\learnlar3\learnlar3\app\Http\Controllers\Dashboard" />
+      <recent name="E:\courses\starup\masdaqia\Ameer\learnlar2.3\learnlar2\learnlar2\public" />
+      <recent name="E:\courses\starup\masdaqia\Ameer\learnlar2.3\learnlar2\learnlar2\resources\views\MenubarViews" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,6 +227,9 @@
       <workItem from="1567680410087" duration="5977000" />
       <workItem from="1567794838607" duration="3349000" />
       <workItem from="1572026773100" duration="4880000" />
+      <workItem from="1572090871707" duration="1576000" />
+      <workItem from="1572092658066" duration="303000" />
+      <workItem from="1572366836135" duration="4959000" />
     </task>
     <servers />
   </component>
@@ -235,7 +241,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

@@ -50,6 +50,11 @@ Route::get('/propertydetail',function (){return view('Basic_pages.propertyproduc
 Route::get('/vichledetail',function (){return view('Basic_pages.vichleproductdetails');})->name('vichledetail');
 Route::get('/highvaluedetail',function (){return view('Basic_pages.highvalueproductdetails');})->name('highvaluedetail');
 
+//payment route
+Route::get('/userpayment',function (){return view('userpayment');})->name('userpayment');
+Route::get('/contiuepayment',function (){return view('contiuepayment');})->name('contiuepayment');
+
+
 
 Route::get('/product_car/{id}', "ProductData@carsproduct")->name('Productt_car');
 Route::get('/product_property/{id}',"ProductData@propertyproduct" )->name('Productt_property');
