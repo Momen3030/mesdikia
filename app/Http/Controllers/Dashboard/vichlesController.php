@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Dashboard;
 
-use App\vichle;
+use App\Vichle;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -15,7 +15,7 @@ class vichlesController extends Controller
      */
     public function index()
     {
-        $vichles = vichle::paginate(4);
+        $vichles = Vichle::paginate(4);
         return view('dashboard.vichles.index',compact('vichles'));
     }
 

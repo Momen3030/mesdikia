@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="675838ab-9529-44c0-a5fd-8e3cd016956c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/Basic_pages/highvalueproductdetails.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/Basic_pages/highvalueproductdetails.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/vichlesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/vichlesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/dashboard_files/css/ltr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/dashboard_files/css/ltr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/ltr.css" beforeDir="false" afterPath="$PROJECT_DIR$/public_html/dashboard_files/css/ltr.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/site.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/cars/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/cars/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/jewleries/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/jewleries/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/properties/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/properties/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/vichles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/vichles/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -146,7 +152,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="eu.ydp.idea.ts.spec.generator.settings.spec.template" value="import {$ClassName$} from '$TestsRelativePath$../src/$classRelativePath$/$ClassName$';&#10;&#10;describe('$ClassName$', () =&gt; {&#10;  let $ObjName$:$ClassName$;&#10;&#10;  beforeEach(() =&gt; {&#10;    $ObjName$ = new $ClassName$();&#10;  });&#10;&#10;  describe('', () =&gt; {&#10;    it('', () =&gt; {&#10;      // given&#10;&#10;      // when&#10;&#10;      // then&#10;    });&#10;  });&#10;});&#10;" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -229,7 +235,10 @@
       <workItem from="1572026773100" duration="4880000" />
       <workItem from="1572090871707" duration="1576000" />
       <workItem from="1572092658066" duration="303000" />
-      <workItem from="1572366836135" duration="4959000" />
+      <workItem from="1572366836135" duration="7034000" />
+      <workItem from="1572814992008" duration="1926000" />
+      <workItem from="1572863643627" duration="851000" />
+      <workItem from="1572877025192" duration="10552000" />
     </task>
     <servers />
   </component>
@@ -341,11 +350,6 @@
           <url>file://$PROJECT_DIR$/resources/views/pages_profile_list/enter.blade.php</url>
           <line>329</line>
           <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/resources/views/dashboard/index.blade.php</url>
-          <line>74</line>
-          <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/database/migrations/2019_09_02_090710_create_auth_jewelries_table.php</url>

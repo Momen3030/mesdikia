@@ -27,10 +27,10 @@
                                     <th>@lang('site.id')</th>
                                     <th>@lang('site.type')</th>
                                     <th>@lang('site.vendor')</th>
-                                    <th>@lang('site.color')</th>
+{{--                                    <th>@lang('site.color')</th>--}}
                                     <th>@lang('site.year')</th>
                                     <th>@lang('site.new')</th>
-                                     <th>@lang('site.ownerID')</th>
+{{--                                     <th>@lang('site.ownerID')</th>--}}
                                     <th>@lang('site.price')</th>
                                     <th>@lang('site.Auction_type')</th>
                                     <th>@lang('site.location')</th>
@@ -47,10 +47,10 @@
                                         <td>{{$vichle->id}} </td>
                                         <td>{{$vichle->type}}</td>
                                         <td>{{$vichle->vendor}}</td>
-                                        <td>{{$vichle->color}} </td>
+{{--                                        <td>{{$vichle->color}} </td>--}}
                                         <td>{{$vichle->year}}</td>
                                         <td>{{$vichle->new}}</td>
-                                        <td>{{$vichle->ownerID}}</td>
+{{--                                        <td>{{$vichle->ownerID}}</td>--}}
 
                                         <td>{{$vichle->price}}</td>
                                         <td>{{$vichle->Auction_type}} </td>

@@ -25,8 +25,8 @@
                             <thead>
                                 <tr class="tr_header">
                                      <th>@lang('site.id')</th>
-                                    <th>@lang('site.type')</th>
-                                    <th>@lang('site.area')</th>
+{{--                                    <th>@lang('site.type')</th>--}}
+{{--                                    <th>@lang('site.area')</th>--}}
                                     <th>@lang('site.street')</th>
                                     <th>@lang('site.city')</th>
                                     <th>@lang('site.rental')</th>
@@ -34,7 +34,7 @@
                                     <th>@lang('site.status')</th>
                                     <th>@lang('site.Auction_type')</th>
                                     <th>@lang('site.floors')</th>
-                                    <th>@lang('site.furnished')</th>
+{{--                                    <th>@lang('site.furnished')</th>--}}
                                     <th>@lang('site.price')</th>
                                     <th>@lang('site.rooms')</th>
                                     <th>@lang('site.SizeInMeter')</th>
@@ -47,8 +47,8 @@
                                     <tr>
 
                                         <td>{{$property->id}} </td>
-                                        <td>{{$property->type}}</td>
-                                        <td>{{$property->area}}</td>
+{{--                                        <td>{{$property->type}}</td>--}}
+{{--                                        <td>{{$property->area}}</td>--}}
                                         <td>{{$property->street}}</td>
                                         <td>{{$property->city}}</td>
                                         <td>{{$property->rental}} </td>
@@ -56,7 +56,7 @@
                                         <td>{{$property->status}}</td>
                                         <td>{{$property->Auction_type}} </td>
                                         <td>{{$property->floors}}</td>
-                                        <td>{{$property->furnished}}</td>
+{{--                                        <td>{{$property->furnished}}</td>--}}
                                         <td>{{$property->price}} </td>
                                         <td>{{$property->rooms}}</td>
                                         <td>{{$property->SizeInMeter}}</td>

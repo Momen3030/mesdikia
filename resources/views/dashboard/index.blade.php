@@ -1,5 +1,7 @@
 @extends('layouts.dashboard.app')
+@section('style')
 
+@endsection
 @section('content')
 
     <div class="content-wrapper">
@@ -20,42 +22,43 @@
                     <thead>
                     <tr class="tr_header">
                         <th>@lang('site.id')</th>
-                        <th>@lang('site.type')</th>
-                        <th>@lang('site.vendor')</th>
-                        <th>@lang('site.color')</th>
-                        <th>@lang('site.year')</th>
-                        <th>@lang('site.new')</th>
+{{--                        <th>@lang('site.type')</th>--}}
+{{--                        <th>@lang('site.vendor')</th>--}}
+{{--                        <th>@lang('site.color')</th>--}}
+{{--                        <th>@lang('site.year')</th>--}}
+{{--                        <th>@lang('site.new')</th>--}}
                         <th>@lang('site.price')</th>
-                        <th>@lang('site.model')</th>
-                        <th>@lang('site.ownerID')</th>
+{{--                        <th>@lang('site.model')</th>--}}
+{{--                        <th>@lang('site.ownerID')</th>--}}
                         <th>@lang('site.Auction_type')</th>
-                        <th>@lang('site.location')</th>
-                        <th>@lang('site.Guarant')</th>
-                        <th>@lang('site.viewers')</th>
+{{--                        <th>@lang('site.location')</th>--}}
+{{--                        <th>@lang('site.Guarant')</th>--}}
+{{--                        <th>@lang('site.viewers')</th>--}}
                         <th>@lang('site.image')</th>
                         <th>@lang('site.status')</th>
                         <th>@lang('site.producttime')</th>
+                        <th></th>
                     </tr>
                     </thead>
                     @foreach($car_order as $car)
                         <tbody>
                         <tr>
                             <td>{{$car->id}}</td>
-                            <td>{{$car->type}}</td>
-                            <td>{{$car->vendor}}</td>
-                            <td>{{$car->color}} </td>
-                            <td>{{$car->year}}</td>
-                            <td>{{$car->new}}</td>
+{{--                            <td>{{$car->type}}</td>--}}
+{{--                            <td>{{$car->vendor}}</td>--}}
+{{--                            <td>{{$car->color}} </td>--}}
+{{--                            <td>{{$car->year}}</td>--}}
+{{--                            <td>{{$car->new}}</td>--}}
                             <td>{{$car->price}}</td>
-                            <td>{{$car->model}} </td>
-                            <td>{{$car->ownerID}}</td>
+{{--                            <td>{{$car->model}} </td>--}}
+{{--                            <td>{{$car->ownerID}}</td>--}}
                             <td>{{$car->Auction_type}} </td>
-                            <td>{{$car->location}}</td>
-                            <td>{{$car->Guarant}}</td>
-                            <td>{{$car->viewers}}</td>
+{{--                            <td>{{$car->location}}</td>--}}
+{{--                            <td>{{$car->Guarant}}</td>--}}
+{{--                            <td>{{$car->viewers}}</td>--}}
                             <td><img  src="/productimages/{{$car->image}}" alt="error"></td>
                             <td>{{$car->status}}</td>
-                            <td>{{$car->producttime}}</td>
+                            <td>{{Carbon\Carbon::parse($car->producttime)->format('Y-m-d')}}</td>
                             <td>
                                 <button onclick="window.location='{{url('dashboard/Accept',
                                 [
@@ -67,7 +70,7 @@
                                 ,'image'=>$car->image,'status'=>$car->status,'producttime'=>$car->producttime
                                 ]
                                 )}}'" class="btn btn-info">@lang('site.accept')</button>
-                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $car->ownerID])}}'" class="btn btn-info">@lang('site.reject')</button>
+                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $car->ownerID])}}'" class="btn btn-danger">@lang('site.reject')</button>
                             </td>
                         </tr>
                         </tbody>
@@ -89,36 +92,37 @@
                     <thead>
                     <tr class="tr_header">
                         <th>@lang('site.id')</th>
-                        <th>@lang('site.type')</th>
-                        <th>@lang('site.material')</th>
-                        <th>@lang('site.weight')</th>
+{{--                        <th>@lang('site.type')</th>--}}
+{{--                        <th>@lang('site.material')</th>--}}
+{{--                        <th>@lang('site.weight')</th>--}}
                         <th>@lang('site.price')</th>
-                        <th>@lang('site.ownerID')</th>
-                        <th>@lang('site.new')</th>
+{{--                        <th>@lang('site.ownerID')</th>--}}
+{{--                        <th>@lang('site.new')</th>--}}
                         <th>@lang('site.Auction_type')</th>
-                        <th>@lang('site.Guarant')</th>
-                        <th>@lang('site.viewers')</th>
+{{--                        <th>@lang('site.Guarant')</th>--}}
+{{--                        <th>@lang('site.viewers')</th>--}}
                         <th>@lang('site.image')</th>
                         <th>@lang('site.status')</th>
                         <th>@lang('site.producttime')</th>
+                        <th></th>
                     </tr>
                     </thead>
                     @foreach($jeweler_order as $jeweler)
                         <tbody>
                         <tr>
                             <td>{{$jeweler->id}}</td>
-                            <td>{{$jeweler->type}}</td>
-                            <td>{{$jeweler->material}}</td>
-                            <td>{{$jeweler->weight}}</td>
+{{--                            <td>{{$jeweler->type}}</td>--}}
+{{--                            <td>{{$jeweler->material}}</td>--}}
+{{--                            <td>{{$jeweler->weight}}</td>--}}
                             <td>{{$jeweler->price}}</td>
-                            <td>{{$jeweler->ownerID}}</td>
-                            <td>{{$jeweler->new}}</td>
+{{--                            <td>{{$jeweler->ownerID}}</td>--}}
+{{--                            <td>{{$jeweler->new}}</td>--}}
                             <td>{{$jeweler->Auction_type}} </td>
-                            <td>{{$jeweler->Guarant}}</td>
-                            <td>{{$jeweler->viewers}}</td>
+{{--                            <td>{{$jeweler->Guarant}}</td>--}}
+{{--                            <td>{{$jeweler->viewers}}</td>--}}
                             <td><img  src="/productimages/{{$jeweler->image}}" alt="error"></td>
                             <td>{{$jeweler->status}}</td>
-                            <td>{{$jeweler->producttime }}</td>
+                            <td>{{ Carbon\Carbon::parse($jeweler->producttime)->format('Y-m-d') }}</td>
                             <td>
                                 <button onclick="window.location='{{url('dashboard/Accept_jew',
                                 [
@@ -136,7 +140,7 @@
                                 'status'=>$jeweler->status,
                                 'producttime'=>$jeweler->producttime
                                 ])}}'" class="btn btn-info">@lang('site.accept')</button>
-                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $jeweler->ownerID])}}'" class="btn btn-info">@lang('site.reject')</button>
+                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $jeweler->ownerID])}}'" class="btn btn-danger">@lang('site.reject')</button>
                             </td>
                         </tr>
                         </tbody>
@@ -158,34 +162,35 @@
                     <thead>
                     <tr class="tr_header">
                         <th>@lang('site.id')</th>
-                        <th>@lang('site.type')</th>
+{{--                        <th>@lang('site.type')</th>--}}
                         <th>@lang('site.price')</th>
-                        <th>@lang('site.new')</th>
-                        <th>@lang('site.ownerID')</th>
+{{--                        <th>@lang('site.new')</th>--}}
+{{--                        <th>@lang('site.ownerID')</th>--}}
                         <th>@lang('site.Auction_type')</th>
-                        <th>@lang('site.Guarant')</th>
+{{--                        <th>@lang('site.Guarant')</th>--}}
                         <th>@lang('site.viewers')</th>
                         <th>@lang('site.image')</th>
                         <th>@lang('site.status')</th>
                         <th>@lang('site.producttime')</th>
+                        <th> </th>
                     </tr>
                     </thead>
                     @foreach($higvalue_order as $higvalue)
                         <tbody>
                         <tr>
                             <td>{{$higvalue->id}}</td>
-                            <td>{{$higvalue->type}}</td>
+{{--                            <td>{{$higvalue->type}}</td>--}}
                             <td>{{$higvalue->price}} </td>
-                            <td>{{$higvalue->new}}</td>
-                            <td>{{$higvalue->ownerID}}</td>
+{{--                            <td>{{$higvalue->new}}</td>--}}
+{{--                            <td>{{$higvalue->ownerID}}</td>--}}
                             <td>{{$higvalue->Auction_type}} </td>
-                            <td>{{$higvalue->Guarant}}</td>
+{{--                            <td>{{$higvalue->Guarant}}</td>--}}
                             <td>{{$higvalue->viewers}}</td>
                             <td><img  src="/productimages/{{$higvalue->image}}" alt="error"></td>
                             <td>{{$higvalue->status}}</td>
-                            <td>{{$higvalue->producttime }}</td>
+                            <td>{{ Carbon\Carbon::parse($higvalue->producttime)->format('Y-m-d')}}</td>
                             <td>
-                                <button onclick="window.location='{{url('dashboard/Accept_high',
+                                <button  class="btn btn-info"  onclick="window.location='{{url('dashboard/Accept_high',
                                 [
                                 'id'=>$higvalue->id,
                                  'type'=>$higvalue->type,
@@ -193,8 +198,8 @@
                                'ownerID'=>$higvalue->ownerID,'Auction_type'=>$higvalue->Auction_type,
                                 'Guarant'=>$higvalue->Guarant,'viewers'=>$higvalue->viewers
                                 ,'image'=>$higvalue->image,'status'=>$higvalue->status,'producttime'=>$higvalue->producttime
-                                ])}}'" class="btn btn-info">@lang('site.accept')</button>
-                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $higvalue->ownerID])}}'" class="btn btn-info">@lang('site.reject')</button>
+                                ])}}'" >@lang('site.accept')</button>
+                                <button class="btn btn-danger "   onclick="window.location='{{route('dashboard.reject',['id'=> $higvalue->ownerID])}}'" >@lang('site.reject')</button>
                             </td>
                         </tr>
                         </tbody>
@@ -216,42 +221,43 @@
                     <thead>
                     <tr class="tr_header">
                         <th>@lang('site.id')</th>
-                        <th>@lang('site.type')</th>
-                        <th>@lang('site.year')</th>
-                        <th>@lang('site.model')</th>
-                        <th>@lang('site.vendor')</th>
-                        <th>@lang('site.color')</th>
-                        <th>@lang('site.new')</th>
+{{--                        <th>@lang('site.type')</th>--}}
+{{--                        <th>@lang('site.year')</th>--}}
+{{--                        <th>@lang('site.model')</th>--}}
+{{--                        <th>@lang('site.vendor')</th>--}}
+{{--                        <th>@lang('site.color')</th>--}}
+{{--                        <th>@lang('site.new')</th>--}}
                         <th>@lang('site.status')</th>
-                        <th>@lang('site.ownerID')</th>
+{{--                        <th>@lang('site.ownerID')</th>--}}
                         <th>@lang('site.price')</th>
                         <th>@lang('site.Auction_type')</th>
-                        <th>@lang('site.location')</th>
-                        <th>@lang('site.Guarant')</th>
-                        <th>@lang('site.viewers')</th>
+{{--                        <th>@lang('site.location')</th>--}}
+{{--                        <th>@lang('site.Guarant')</th>--}}
+{{--                        <th>@lang('site.viewers')</th>--}}
                         <th>@lang('site.image')</th>
                         <th>@lang('site.producttime')</th>
+                        <th></th>
                     </tr>
                     </thead>
                     @foreach($vicales_order as $vicales)
                         <tbody>
                         <tr>
                             <td>{{$vicales->id}}</td>
-                            <td>{{$vicales->type}}</td>
-                            <td>{{$vicales->year}}</td>
-                            <td>{{$vicales->model}} </td>
-                            <td>{{$vicales->vendor}}</td>
-                            <td>{{$vicales->color}}</td>
-                            <td>{{$vicales->new}}</td>
+{{--                            <td>{{$vicales->type}}</td>--}}
+{{--                            <td>{{$vicales->year}}</td>--}}
+{{--                            <td>{{$vicales->model}} </td>--}}
+{{--                            <td>{{$vicales->vendor}}</td>--}}
+{{--                            <td>{{$vicales->color}}</td>--}}
+{{--                            <td>{{$vicales->new}}</td>--}}
                             <td>{{$vicales->status}}</td>
-                            <td>{{$vicales->ownerID}}</td>
+{{--                            <td>{{$vicales->ownerID}}</td>--}}
                             <td>{{$vicales->price}}</td>
                             <td>{{$vicales->Auction_type}} </td>
-                            <td>{{$vicales->location}}</td>
-                            <td>{{$vicales->Guarant}}</td>
-                            <td>{{$vicales->viewers}}</td>
+{{--                            <td>{{$vicales->location}}</td>--}}
+{{--                            <td>{{$vicales->Guarant}}</td>--}}
+{{--                            <td>{{$vicales->viewers}}</td>--}}
                             <td><img  src="/productimages/{{$vicales->image}}" alt="error"></td>
-                            <td>{{$vicales->producttime}}</td>
+                            <td>{{Carbon\Carbon::parse($vicales->producttime)->format('Y-m-d')}}</td>
                             <td>
                                 <button onclick="window.location='{{url('dashboard/Accept_vich',
                                 [
@@ -262,7 +268,7 @@
                                 'location'=>$vicales->location,'Guarant'=>$vicales->Guarant,'viewers'=>$vicales->viewers
                                 ,'image'=>$vicales->image,'producttime'=>$vicales->producttime
                                 ])}}'" class="btn btn-info">@lang('site.accept')</button>
-                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $vicales->ownerID])}}'" class="btn btn-info">@lang('site.reject')</button>
+                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $vicales->ownerID])}}'" class="btn btn-danger">@lang('site.reject')</button>
                             </td>
                         </tr>
                         </tbody>
@@ -284,46 +290,47 @@
                     <thead>
                     <tr class="tr_header">
                         <th>@lang('site.id')</th>
-                        <th>@lang('site.type')</th>
-                        <th>@lang('site.street')</th>
-                        <th>@lang('site.city')</th>
-                        <th>@lang('site.new')</th>
+{{--                        <th>@lang('site.type')</th>--}}
+{{--                        <th>@lang('site.street')</th>--}}
+{{--                        <th>@lang('site.city')</th>--}}
+{{--                        <th>@lang('site.new')</th>--}}
                         <th>@lang('site.status')</th>
-                        <th>@lang('site.ownerID')</th>
-                        <th>@lang('site.floors')</th>
+{{--                        <th>@lang('site.ownerID')</th>--}}
+{{--                        <th>@lang('site.floors')</th>--}}
                         <th>@lang('site.price')</th>
                         <th>@lang('site.rooms')</th>
-                        <th>@lang('site.SizeInMeter')</th>
+{{--                        <th>@lang('site.SizeInMeter')</th>--}}
                         <th>@lang('site.Auction_type')</th>
-                        <th>@lang('site.location')</th>
-                        <th>@lang('site.Guarant')</th>
-                        <th>@lang('site.viewers')</th>
+{{--                        <th>@lang('site.location')</th>--}}
+{{--                        <th>@lang('site.Guarant')</th>--}}
+{{--                        <th>@lang('site.viewers')</th>--}}
                         <th>@lang('site.image')</th>
-                        <th>@lang('site.status')</th>
+{{--                        <th>@lang('site.status')</th>--}}
                         <th>@lang('site.producttime')</th>
+                        <th></th>
                     </tr>
                     </thead>
                     @foreach($proparity_order as $proparity)
                         <tbody>
                         <tr>
                             <td>{{$proparity->id}}</td>
-                            <td>{{$proparity->type}}</td>
-                            <td>{{$proparity->street}} </td>
-                            <td>{{$proparity->city}}</td>
-                            <td>{{$proparity->new}}</td>
+{{--                            <td>{{$proparity->type}}</td>--}}
+{{--                            <td>{{$proparity->street}} </td>--}}
+{{--                            <td>{{$proparity->city}}</td>--}}
+{{--                            <td>{{$proparity->new}}</td>--}}
                             <td>{{$proparity->status}}</td>
-                            <td>{{$proparity->ownerID}}</td>
-                            <td>{{$proparity->floors}}</td>
+{{--                            <td>{{$proparity->ownerID}}</td>--}}
+{{--                            <td>{{$proparity->floors}}</td>--}}
                             <td>{{$proparity->price}}</td>
                             <td>{{$proparity->rooms}}</td>
-                            <td>{{$proparity->SizeInMeter}}</td>
+{{--                            <td>{{$proparity->SizeInMeter}}</td>--}}
                             <td>{{$proparity->Auction_type}} </td>
-                            <td>{{$proparity->location}}</td>
-                            <td>{{$proparity->Guarant}}</td>
-                            <td>{{$proparity->viewers}}</td>
+{{--                            <td>{{$proparity->location}}</td>--}}
+{{--                            <td>{{$proparity->Guarant}}</td>--}}
+{{--                            <td>{{$proparity->viewers}}</td>--}}
                             <td><img  src="/productimages/{{$proparity->image}}" alt="error"></td>
-                            <td>{{$proparity->status}}</td>
-                            <td>{{$proparity->producttime }}</td>
+{{--                            <td>{{$proparity->status}}</td>--}}
+                            <td>{{Carbon\Carbon::parse($proparity->producttime)->format('Y-m-d') }}</td>
                             <td>
                                 <button onclick="window.location='{{url('dashboard/Accept_prop',
                                 [
@@ -335,7 +342,7 @@
                                 'location'=>$proparity->location,'Guarant'=>$proparity->Guarant,'viewers'=>$proparity->viewers
                                 ,'image'=>$proparity->image,'producttime'=>$proparity->producttime
                                 ])}}'" class="btn btn-info">@lang('site.accept')</button>
-                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $proparity->ownerID])}}'" class="btn btn-info">@lang('site.reject')</button>
+                                <button onclick="window.location='{{route('dashboard.reject',['id'=> $proparity->ownerID])}}'" class="btn btn-danger">@lang('site.reject')</button>
                             </td>
                         </tr>
                         </tbody>

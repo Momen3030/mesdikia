@@ -48,7 +48,7 @@ Route::get('/cardetail',function (){return view('Basic_pages.carproductdetails')
 Route::get('/jewlerydetail',function (){return view('Basic_pages.jewelryproductdetails');})->name('jewlerydetail');
 Route::get('/propertydetail',function (){return view('Basic_pages.propertyproductdetails');})->name('propertydetail');
 Route::get('/vichledetail',function (){return view('Basic_pages.vichleproductdetails');})->name('vichledetail');
-Route::get('/highvaluedetail',function (){return view('Basic_pages.highvalueproductdetails');})->name('highvaluedetail');
+Route::get('/highvaluedetail',function (){return view('BFasic_pages.highvalueproductdetails');})->name('highvaluedetail');
 
 //payment route
 Route::get('/userpayment',function (){return view('userpayment');})->name('userpayment');

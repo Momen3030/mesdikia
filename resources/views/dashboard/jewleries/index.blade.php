@@ -35,8 +35,8 @@
                                     <th>@lang('site.Auction_type')</th>
                                     <th>@lang('site.location')</th>
                                     <th>@lang('site.Guarant')</th>
-                                    <th>@lang('site.status')</th>
                                     <th>@lang('site.image')</th>
+                                    <th>@lang('site.status')</th>
                                 </tr>
                                 </thead>
                                 @foreach($jewl as $jewlery)

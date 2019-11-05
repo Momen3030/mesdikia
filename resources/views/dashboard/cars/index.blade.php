@@ -36,9 +36,9 @@
                                     <th>@lang('site.Auction_type')</th>
                                     <th>@lang('site.Guarant')</th>
                                     <th>@lang('site.image')</th>
-                                    <th>@lang('site.ownerID')</th>
-                                    <th>@lang('site.viewers')</th>
-                                    <th>@lang('site.producttime')</th>
+{{--                                    <th>@lang('site.ownerID')</th>--}}
+{{--                                    <th>@lang('site.viewers')</th>--}}
+{{--                                    <th>@lang('site.producttime')</th>--}}
                                 </tr>
                                 </thead>
                                 @foreach($cars as $car)
@@ -56,9 +56,9 @@
                                         <td>{{$car->Auction_type}} </td>
                                         <td>{{$car->Guarant}}</td>
                                         <td><img src="/productimages/{{$car->image}}" alt="error"></td>
-                                        <td>{{$car->ownerID}}</td>
-                                        <td>{{$car->viewers}}</td>
-                                        <td>{{$car->producttime}}</td>
+{{--                                        <td>{{$car->ownerID}}</td>--}}
+{{--                                        <td>{{$car->viewers}}</td>--}}
+{{--                                        <td>{{$car->producttime}}</td>--}}
                                         <td>
                                             <button onclick="window.location='{{route('dashboard.cars.edit',['id'=> $car->id])}}'" class="btn btn-info">@lang('site.edit')</button>
                                             <form action="{{route('dashboard.cars.destroy',[$car->id])}}" method="post" style="display: inline-block">
