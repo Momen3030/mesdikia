@@ -22,6 +22,7 @@
             <li><a href="{{ route('dashboard.messages.index') }}"><i class="fa fa-th"></i><span>@lang('site.message')</span></a></li>
             <li><a href="{{ route('dashboard.addtextimage.index') }}"><i class="fa fa-th"></i><span>@lang('site.ADDTExtImag')</span></a></li>
             <li><a href="{{ route('dashboard.advertising.index') }}"><i class="fa fa-th"></i><span>@lang('site.add_advertising')</span></a></li>
+            <li><a href="{{ route('dashboard.categories.index') }}"><i class="fa fa-th"></i><span>@lang('site.categories')</span></a></li>
             <li><a href="{{ url('/homemesdakia') }}"><i class="fa fa-th"></i><span>@lang('site.homemesdakia')</span></a></li>
 
         </ul>

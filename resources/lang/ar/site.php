@@ -5,6 +5,7 @@ return [
     'add_advertising'=>'اضافه اعلان',
     'title'=>'العنوان',
     'url'=>'اللينك',
+    'categories'=>'الاقسام',
     'dashboard'=>'الرئيسية',
     'jewleries'=>'مجوهرات',
     'properties'=>'عقارات',

@@ -25,4 +25,15 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+
+
+    public function singlepage($name)
+    {
+
+        $category=Category::where('name',$name)->firstOrFail();
+         dd($category);
+
+        return view('website.singlepage',compact('category'));
+    }
 }
