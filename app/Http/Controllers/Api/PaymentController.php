@@ -15,32 +15,30 @@ class PaymentController extends Controller
             'cardExpireMonth' => 'required',
             'cardexpiryYear' => 'required',
             'cardCvv' => 'required',
-            'cardType' =>'required',
+            'cardType' =>'required', //VISA , MASTER
             'userId' =>'required'
         ]);
         $user = User::find($validatedData['userId']);
-        return $user;
     $url = "https://test.oppwa.com/v1/payments";
-    $amo = "91";
     $data = "entityId=8ac7a4c76ca93584016caee5a7161378" .
             ((isset($validatedData['amount']))? ("&amount=" .$validatedData['amount']): "" ) .
                 "&currency=SAR" .
                 "&paymentBrand=".$validatedData['cardType'] .
                 "&paymentType=DB" .
                 "&card.number=".$validatedData['cardNumber'] .
-                "&card.holder=Abdullah Mohamed" .
+                "&card.holder=" .$user->name .
                 "&card.expiryMonth=" .$validatedData['cardExpireMonth'].
                 "&card.expiryYear=".$validatedData['cardexpiryYear'] .
                 "&card.cvv=".$validatedData['cardCvv'] .
                 "&merchantTransactionId=1" .
-                "&customer.email=iabdullah.beker@gmail.com" .
+                "&customer.email=".$user->email .
                 "&billing.street1=elWaraq" .
                 "&billing.city=Giza" .
                 "&billing.state=Cairo" .
                 "&billing.country=EG" .
                 "&billing.postcode=11211" .
-                "&customer.givenName=Abdullah" .
-                "&customer.surname=Mohamed" .
+                "&customer.givenName=" .$user->name .
+                "&customer.surname=" .$user->name .
                 "&shopperResultUrl=https://test.com"
                 ;
 
