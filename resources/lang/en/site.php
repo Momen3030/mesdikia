@@ -4,8 +4,8 @@ return [
     'users'=>'Clients',
     'add'=>'Add',
     'id'=>'ID',
-
-    'homemesdakia'=>'To Mesdakia ',
+    'categories'=>'Categories',
+    'homemesdakia'=>'To Mesdakia',
     'advertising'=>'Advertising',
     'add_advertising'=>'Add advertising',
     'title'=>'Title',

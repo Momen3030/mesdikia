@@ -181,3 +181,13 @@ Route::get('/animals',function (){return 'حيـوانـات';});      //حيـ�
 Route::get('/antiques',function (){return 'تحـف';});      //تحـف
 Route::get('/other',function (){return 'أخري';});      //أخري
 Route::get('/others_precious',function (){return '/المعلن الجديد';});     //المعلن الجديد
+
+
+
+
+
+
+
+//============================= Categroies =============
+
+Route::get('/singlepage/{name}','HomeController@singlepage')->name('singlepage');

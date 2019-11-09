@@ -21,6 +21,7 @@ Route::group(
             Route::resource('highvalues', 'highvalueController');
             Route::resource('properties', 'propertiesController');
             Route::resource('vichles', 'vichlesController');
+            Route::resource('categories','CategoryController');
 
             Route::resource('controls', 'controlsheader');
             Route::resource('messages','messages');

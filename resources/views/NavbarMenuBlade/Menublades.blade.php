@@ -282,6 +282,16 @@
                             </div>
                         </div>
                     </li>
+
+                    @foreach (PagesHelperFunction() as $category)
+{{--                        @if (app()->getLocale()=='en')--}}
+                            <li><a href="{{route('singlepage',['pagename'=>$page->$category])}}">{{$category->name}}</a></li>
+
+{{--                        @else--}}
+{{--                            <li><a href="{{route('singlepage',['pagename'=>$page->pagename])}}">{{$page->pagename_ar}}</a></li>--}}
+{{--                        @endif--}}
+                    @endforeach
+
                     <li><a href="{{ url('/mazadat') }}">المزادات</a></li>
                     <li><a href="{{ url('/sales') }}">المزادات الفورية</a></li>
                     <a class="share" href="{{ url('/mesdakia') }}"><i style="margin-right: 0; font-size: 12px;" class="fas fa-plus"></i> انشر اعلان</a>
