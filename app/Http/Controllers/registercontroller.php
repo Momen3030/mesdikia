@@ -16,7 +16,14 @@ class registercontroller extends Controller
             $ps = $register_model->password = $request->get('pass');
             echo $un,$em,$ps;
             $register_model->save();
-            return redirect('/add_product');
+            $id=$register_model->id;
+            return redirect()->route('add_product',
+                [
+                    'email'=>$request->session()->put('email',$em),
+                    'password'=>$request->session()->put('password',$ps),
+                    'id'=>$request->session()->put('id',$id),
+                    'name'=>$request->session()->put('name',$un)
+                ]);
         }
         return view('MenubarViews.mesdakia');
     }

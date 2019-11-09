@@ -158,21 +158,22 @@
                     @endforeach
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center pt-4">
-                @if (count($jewelrys))
-                    {{$jewelrys->links()}}
-                @endif
 
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center pt-4">
+                    @if (count($jewelrys))
+                        {{$jewelrys->links()}}
+                    @endif
+
+                </div>
             </div>
-        </div>
-        <div class="row">
+            <div class="row">
             <div class="col-12 d-flex justify-content-center pt-4">
                 @if (count($jewelrysearch))
                     {{$jewelrysearch->links()}}
                 @endif
             </div>
+        </div>
         </div>
     </section>
     <!-- ============================================================================================================== -->

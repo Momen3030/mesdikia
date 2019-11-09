@@ -16,7 +16,7 @@
             <div class="right">
 
                 @if (! empty(Session::get('id')))
-                    <a class="colorwhite qwk-link" href="http://127.0.0.1:8000/add_product"><i class="fa fa-user text-center"></i> {{Session::get('name')}}</a>
+                    <a class="colorwhite qwk-link" href="/add_product?"><i class="fa fa-user text-center"></i> {{Session::get('name')}}</a>
                 @endif
 
                 {{--@if(!Session::get('id'))--}}
@@ -35,9 +35,10 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"> تسجيل الدخول</h5>
+                <h5 class="modal-title" id="exampleModalLabel" style="width: 145px!important;display:  inline-block;font-size: 2rem;
+"> تسجيل الدخول</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" style="font-size: xx-large; ">&times;</span>
+                    <span aria-hidden="true" style="font-size: xx-large; position: absolute;left: 15px;line-height: 2;">&times;</span>
                 </button>
             </div>
             <div class="cl"></div>
@@ -71,9 +72,10 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel"> تسجيل البيانات</h5>
+                <h5 class="modal-title" id="exampleModalLabel" style="width: 145px!important;display:  inline-block;font-size: 2rem;
+"> تسجيل البيانات</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true" style="font-size: xx-large; ">&times;</span>
+                    <span aria-hidden="true" style="font-size: xx-large; position: absolute;left: 15px;line-height: 2;">&times;</span>
                 </button>
             </div>
             <div class="cl"></div>

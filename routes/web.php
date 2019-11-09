@@ -38,10 +38,11 @@ Route::get('getvichleapi','GetvichlesApi@listvichle');
 Route::get('/mesdakia', function () {return view('MenubarViews.mesdakia');});
 Route::get('/mesdakia2/{id}', function ($id) {
     Session::flush($id);
-    return redirect('/mesdakia');
+    return redirect('/');
 })->name('mesdakiaroute');
 Route::get('/sales',"Sales@fawrysales");//   المزادات الفورية
 Route::get('/homemesdakia',"HomemesdakiaController@homeMed");
+Route::get('/',"HomemesdakiaController@homeMed");
 Route::get('/mazadat','mazadatController@ListMazadat');
 ////////////// category details/////////////////
 Route::get('/cardetail',function (){return view('Basic_pages.carproductdetails');})->name('cardetail');

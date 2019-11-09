@@ -200,7 +200,7 @@
                 </div>
 
             </div>
-        </div>
+
         <div class="row">
             <div class="col-12 d-flex justify-content-center pt-4">
                 @if (count($properties))
@@ -215,6 +215,7 @@
                     {{$proretysearch->links()}}
                 @endif
             </div>
+        </div>
         </div>
     </section>
 </section>

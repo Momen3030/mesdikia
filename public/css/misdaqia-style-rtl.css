@@ -237,7 +237,10 @@ body{
     }
 }
 @media (min-width: 1200px) { /* large screen */
-    
+    .container {
+        width: 1025px;
+        max-width: 100%;
+    }
     
 }
 /* End All Responsive for navbar */

@@ -167,24 +167,25 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+
                     @endforeach
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center pt-4">
-                @if (count($vichles))
-                    {{$vichles->links()}}
-                @endif
 
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center pt-4">
+                    @if (count($vichles))
+                        {{$vichles->links()}}
+                    @endif
+
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center pt-4">
-                @if (count($vichlesearch))
-                    {{$vichlesearch->links()}}
-                @endif
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center pt-4">
+                    @if (count($vichlesearch))
+                        {{$vichlesearch->links()}}
+                    @endif
+                </div>
             </div>
         </div>
     </section>

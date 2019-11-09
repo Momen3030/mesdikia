@@ -11,7 +11,7 @@
                             <hr class="ln"/> </h3>
                         <div class="h_content">
                             <button class="btn btn-default btn_cl1 wow fadeInRight" data-wow-duration="2s">ابحث و اشتري الأن </button>
-                            <button class="btn btn-default btn_cl2 wow fadeInLeft" data-wow-duration="2s">نشر إعلان مجاني </button>
+                            <button class="btn btn-default btn_cl2 wow fadeInLeft" data-wow-duration="2s"><a href="{{ url('/mesdakia') }}"> نشر إعلان مجاني</a> </button>
                         </div>
                     </div>
                 </div>

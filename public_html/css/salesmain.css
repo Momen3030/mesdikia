@@ -7,6 +7,7 @@ hr{
 .container::before{
     display: table;
     content: "";
+    margin: 0px;
 }
 .container::after{
     clear: both;

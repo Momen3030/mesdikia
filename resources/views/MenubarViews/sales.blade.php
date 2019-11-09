@@ -1,6 +1,9 @@
 @include('Headers.sales_header');
-<body>
-<section id="sales" class="sales">
+
+<body >
+
+<div class="container">
+<section id="sales" class="sales  ">
     <div class="container">
         <div class="sr_items">
             <h3 class="text-center wow fadeInDown" data-wow-duration="2s">عـن مـاذا تـبـحـث !. <hr class="ln"/></h3>
@@ -24,8 +27,9 @@
     </div>
 </section>
 <hr>
+
 <!-- ----------------------------------------- -->
-<section class="count">
+<section class="count  ">
     <div class="container">
         <div class="row">
             <div class="counter col-sm-6 col-md-3">
@@ -58,7 +62,7 @@
 <!-- ----------------------------------------- -->
 <!-- ----------------------------------------- -->
 
-<section id="items" class="items">
+<section id="items" class="items  ">
     <div class="container">
         <button class="btn btn-primary btn_show">السيارات</button>
         <div class="row use-box">
@@ -317,10 +321,10 @@
                 @endif
             </div>
         </div>
-    </div>
 
+ </div>
 </section>
-
+</div>
 <!-- ----------------------------------------------------------------------------------------- -->
 
 
