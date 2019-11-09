@@ -1,74 +1,33 @@
 <?php
 
 namespace App\Http\Controllers\Api;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 use App\cars;
 use App\category;
 use App\HighValue;
 use App\jewelry;
 use App\property;
 use App\User;
-use Validator;
 use App\vichle;
-use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
-use Laravel\Passport\HasApiTokens;
+use Illuminate\Support\Facades\DB;
 use PhpParser\Node\Stmt\Property as PhpParserProperty;
 
-class UserApiController extends Controller
+class CommonController extends Controller
 {
-    
+
     public $successStatus = 200;
-    /**
-     * login api
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function login(){
-        $Remm = \request('email');
-        $Rpss = \request('password');
-        $data = User::all();
-        $user = new User();
-        foreach ($data as $dataM) {
-            $em = $dataM->email;
-            $pas = $dataM->password;
-            if (($em == $Remm) && ($pas == $Rpss)) {
-                $success['token'] =  $user->createToken('MyApp')-> accessToken;
-                return response()->json(['success'=>$success,'status'=>'user exist','email'=>$em,'password'=>$pas],$this->successStatus);
-            }
-        }
-        return response()->json(['error'=>'Unauthorised'], 401);
-    }
-    /**
-     * Register api
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function register(Request $request)
-    {
-        $validator = Validator::make($request->all(), [
-            'name' => 'required',
-            'email' => 'required|email',
-            'password' => 'required',
-        ]);
-        if ($validator->fails()) {
-            return response()->json(['error'=>$validator->errors()], 401);
-        }
-        $input = $request->all();
-        $user = User::create($input);
-        $success['token'] =  $user->createToken('MyApp')-> accessToken;
-        $success['name'] =  $user->name;
-        return response()->json(['success'=>$success,'data'=>$input], $this-> successStatus);
-    }
-    /**
-     * details api
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function details()
+        public function details()
     {
         $user = Auth::user();
         return response()->json(['success' => $user], $this-> successStatus);
+    }
+    
+    public function getCategories(){
+        $cat = DB::table('categories')->get();
+        return response()->json($cat,$this->successStatus);
     }
     
     public function UpdateAccount(Request $request){
@@ -87,14 +46,12 @@ class UserApiController extends Controller
         }
         return response()->json('not exist old data to update it');
     }
-
     public function addcar(Request $request){
         if ($request->isMethod('post')){
             if ($request->hasFile('image')) {
                 $cars = new cars($request->all());
                 $imageName = $request->file('image')->getClientOriginalName();
                 $request->file('image')->move(public_path('productimages'), $imageName);
-
                 $image = $cars->image = $imageName;
                 $cars->save();
                 return response()->json(['status'=>"Success!!"]);
@@ -102,9 +59,7 @@ class UserApiController extends Controller
             else{ return response()->json("Add photo please!!");}
         }
         else{return response()->json("use Post method please!!"); }
-
     }
-
     public function addjewelry(Request $request){
         if ($request->isMethod('post')){
             if ($request->hasFile('image')) {
@@ -119,7 +74,6 @@ class UserApiController extends Controller
         }
         else{return response()->json("use Post method please!!"); }
     }
-
     public function addproperty(Request $request){
         if ($request->isMethod('post')){
             if ($request->hasFile('image')) {
@@ -134,7 +88,6 @@ class UserApiController extends Controller
         }
         else{return response()->json("use Post method please!!"); }
     }
-
     public function addhighvalue(Request $request){
         if ($request->isMethod('post')){
             if ($request->hasFile('image')) {
@@ -149,7 +102,6 @@ class UserApiController extends Controller
         }
         else{return response()->json("use Post method please!!"); }
     }
-
     public function addvichles(Request $request)
     {
         if ($request->isMethod('post')) {
@@ -171,47 +123,36 @@ class UserApiController extends Controller
         $categoryCount = $category->count();
         return response()->json(['count of rows'=>$categoryCount,'data'=>$category],200);
     }
-
     public function listCars()
     {
         $cars = cars::all();
         $carCount = $cars->count();
         return response()->json(['count of rows'=>$carCount,'data'=>$cars],200);
     }
-
     public function listhighvalue()
     {
         $highvalue = HighValue::all();
         $highvalueCount = $highvalue->count();
         return response()->json(['count of rows'=>$highvalueCount,'data'=>$highvalue],200);
     }
-
     public function listjewelery()
     {
-
         $jewelry = jewelry::all();
         $jewelryCount = $jewelry->count();
         return response()->json(['count of rows'=>$jewelryCount,'data'=>$jewelry],200);
-
-
     }
-
     public function listproperty()
     {
         $property = property::all();
         $propertyCount = $property->count();
         return response()->json(['count of rows'=>$propertyCount,'data'=>$property],200);
-
-
     }
-
     public function listvichle()
     {
         $vichles = vichle::all();
         $vichlesCount = $vichles->count();
         return response()->json(['count of rows'=>$vichlesCount,'data'=>$vichles],200);
     }
-
     public function ListMazadat(){
         $cars = cars::all();
         $jewelrys = jewelry::all();
@@ -251,7 +192,6 @@ class UserApiController extends Controller
         $propertiesCount = $properties->count();
         return response()->json($Dataarray);
     }
-
     public function CarSearch(Request $request)
     {
         $price = $request->input('price');
@@ -285,7 +225,6 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
     public function CarSearchByPrice(Request $request)
     {
@@ -295,7 +234,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $carssearch = cars::where('price', '<=' ,$price)->get();
                 
                 foreach ($carssearch as $car )
@@ -311,7 +249,6 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
     public function CarSearchByModel(Request $request)
     {
@@ -321,7 +258,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $carssearch = cars::where('model', '=' ,$model)->get();
                 
                 foreach ($carssearch as $car )
@@ -337,7 +273,6 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
     public function CarSearchByStatus(Request $request)
     {
@@ -347,7 +282,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $carssearch = cars::where('status', '=' ,$status)->get();
                 
                 foreach ($carssearch as $car )
@@ -363,9 +297,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function JewelrySearch(Request $request)
     {
         $material = $request->input('material');
@@ -403,9 +335,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function JewelrySearchByPrice(Request $request)
     {
         $price = $request->input('price');
@@ -414,7 +344,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $Jewelrysearch = jewelry::where('price', '<=' ,$price)->get();
                 
                 foreach ($Jewelrysearch as $Jew )
@@ -430,9 +359,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function JewelrySearchByMatrial(Request $request)
     {
         $mat = $request->input('material');
@@ -441,7 +368,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $Jewelrysearch = jewelry::where('material', '=' ,$mat)->get();
                 
                 foreach ($Jewelrysearch as $Jew )
@@ -457,9 +383,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function JewelrySearchByGender(Request $request)
     {
         $mat = $request->input('gender');
@@ -468,7 +392,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $Jewelrysearch = jewelry::where('gender', '=' ,$mat)->get();
                 
                 foreach ($Jewelrysearch as $Jew )
@@ -484,9 +407,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function HVSearch(Request $request)
     {
         $name = $request->input('name');
@@ -517,10 +438,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
-
     public function HVSearchByPrice(Request $request)
     {
         $price = $request->input('price');
@@ -529,7 +447,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $HVsearch = HighValue::where('price', '<=' ,$price)->get();
                 
                 foreach ($HVsearch as $HV )
@@ -545,9 +462,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function HVSearchByname(Request $request)
     {
         $name = $request->input('name');
@@ -556,7 +471,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $HVsearch = HighValue::where('name', '=' ,$name)->get();
                 
                 foreach ($HVsearch as $HV )
@@ -572,9 +486,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function PropertySearch(Request $request)
     {
         $city = $request->input('city');
@@ -618,9 +530,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function PropertySearchByCity(Request $request)
     {
         $city = $request->input('city');
@@ -629,7 +539,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $PROPsearch = property::where('city', '=' ,$city)->get();
                 
                 foreach ($PROPsearch as $PROP )
@@ -645,10 +554,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
-
     public function PropertySearchByRental(Request $request)
     {
         $rental = $request->input('rental');
@@ -657,7 +563,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $PROPsearch = property::where('rental', '=' ,$rental)->get();
                 
                 foreach ($PROPsearch as $PROP )
@@ -673,9 +578,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function PropertySearchByType(Request $request)
     {
         $type = $request->input('type');
@@ -684,7 +587,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $PROPsearch = property::where('type', '=' ,$type)->get();
                 
                 foreach ($PROPsearch as $PROP )
@@ -700,9 +602,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function PropertySearchByFurnished(Request $request)
     {
         $furnished = $request->input('furnished');
@@ -711,7 +611,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $PROPsearch = property::where('furnished', '=' ,$furnished)->get();
                 
                 foreach ($PROPsearch as $PROP )
@@ -727,9 +626,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function PropertySearchByPrice(Request $request)
     {
         $price = $request->input('price');
@@ -738,7 +635,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $PROPsearch = property::where('price', '<=' ,$price)->get();
                 
                 foreach ($PROPsearch as $PROP )
@@ -754,9 +650,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function PropertySearchBySize(Request $request)
     {
         $SizeInMeter = $request->input('SizeInMeter');
@@ -765,7 +659,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $PROPsearch = property::where('SizeInMeter', '>=' ,$SizeInMeter)->get();
                 
                 foreach ($PROPsearch as $PROP )
@@ -781,9 +674,7 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function VichleSearch(Request $request)
     {
         $price = $request->input('price');
@@ -817,7 +708,6 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
     public function VichleSearchByPrice(Request $request)
     {
@@ -827,7 +717,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $carssearch = vichle::where('price', '<=' ,$price)->get();
                 
                 foreach ($carssearch as $car )
@@ -843,7 +732,6 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
     public function VichleSearchByModel(Request $request)
     {
@@ -853,7 +741,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $carssearch = vichle::where('model', '=' ,$model)->get();
                 
                 foreach ($carssearch as $car )
@@ -869,7 +756,6 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
     public function VichleSearchByStatus(Request $request)
     {
@@ -879,7 +765,6 @@ class UserApiController extends Controller
         {
             $Dataarray1 = [];
 //            {
-
                 $carssearch = vichle::where('status', '=' ,$status)->get();
                 
                 foreach ($carssearch as $car )
@@ -895,16 +780,13 @@ class UserApiController extends Controller
         {
             return response()->json("Null Search not allowed");
         }
-
     }
-
     public function Search (Request $request)
     {
         $table = $request->input('table');
         $attribute = $request->input('attribute');
         $value = $request->input('value');
         $sign = $request->input('sign');
-
         switch($table)
         {
             case cars :
@@ -938,7 +820,6 @@ class UserApiController extends Controller
                             break ;
             //            }
             
-
             case property :
             $Dataarray1 = [];
             //            {
@@ -954,7 +835,6 @@ class UserApiController extends Controller
                             return response()->json($Dataarray1);
                             break ;
             //            }
-
             case jewelry :
             $Dataarray1 = [];
             //            {
@@ -970,9 +850,7 @@ class UserApiController extends Controller
                             return response()->json($Dataarray1);
                             break ;
             //            }
-
             case vichle :
-
             $Dataarray1 = [];
             //            {
             
@@ -987,16 +865,9 @@ class UserApiController extends Controller
                             return response()->json($Dataarray1);
                             break ;
             //            }
-
-
-
-
             default:
                             return response()->json("No Such Table please insert s valid Table name !");
                             break ;
-
         }
     }
-
-
 }
