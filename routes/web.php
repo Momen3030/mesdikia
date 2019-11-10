@@ -110,77 +110,271 @@ Route::get('profile', function () {
  * **********          المركبات       ***************
  ****************************************************/
 
-Route::get('/ships',function (){return 'سفـن';});           //سفـن
-Route::get('/marine_boots',function (){return 'بوتات بحرية';});    //بوتات بحرية
-Route::get('/hovercraft',function (){return 'حوامـات';});     //حوامـات
-Route::get('/jet_ski',function (){return 'جيـت سكـي';});      //جيـت سكـي
-Route::get('/vehicles_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/ships',function (){
+
+    return redirect('/vichle');
+})->name('سفـن');
+            //سفـن
+Route::get('/marine_boots',function (){
+
+    return redirect('/vichle');
+})->name('بوتات بحرية');
+
+//بوتات بحرية
+Route::get('/hovercraft',function (){
+
+    return redirect('/vichle');
+})->name('حوامـات');
+
+        //حوامـات
+Route::get('/jet_ski',function (){
+
+    return redirect('/vichle');
+})->name('جيـت سكـي');
+    //جيـت سكـي
+Route::get('/vehicles_new_advertiser',function (){
+    return redirect('/vichle');
+})->name('المعلن الجديد');
+        //المعلن الجديد
 //************** ********************* الشـاحنات *******************************//
-Route::get('/small_trucks',function (){return 'شاحنـات صغيرة';});           //شاحنـات صغيرة
-Route::get('/large_trucks',function (){return 'شاحنـات كبيرة';});    //شاحنـات كبيرة
-Route::get('/trailers',function (){return 'تريـلات';});     //تريـلات
-Route::get('/trucks_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/small_trucks',function (){
+    return redirect('/vichle');
+})->name('شاحنـات صغيرة');
+
+             //شاحنـات صغيرة
+Route::get('/large_trucks',function (){
+
+    return redirect('/vichle');
+})->name('شاحنـات كبيرة');
+
+    //شاحنـات كبيرة
+Route::get('/trailers',function (){
+
+    return redirect('/vichle');
+})->name('تريـلات');
+      //تريـلات
+Route::get('/trucks_new_advertiser',function (){
+    return redirect('/vichle');
+})->name('المعلن الجديد');
+     //المعلن الجديد
 
 //******************************* السيـارات **********************************************//
-Route::get('/family_cars',function (){return 'سيـارات عائيليـة';});           //سيـارات عائيليـة
-Route::get('/small_cars',function (){return 'سيـارات صغيـرة';});    //سيـارات صغيـرة
-Route::get('/buses',function (){return 'حافـلات';});     //حافـلات
-Route::get('/cars_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/family_cars',function (){
+    return redirect('/cars');
+})->name('سيـارات عائيليـة');
+             //سيـارات عائيليـة
+Route::get('/small_cars',function (){
+    return redirect('/cars');
+})->name('سيـارات صغيـرة');
+   ;    //سيـارات صغيـرة
+Route::get('/buses',function (){
+    return redirect('/cars');
+})->name('حافـلات');
+        //حافـلات
+Route::get('/cars_new_advertiser',function (){
+
+    return redirect('/vichle');
+})->name('المعلن الجديد');
+       //المعلن الجديد
 //****************************** الدرجات الناريـة ***************************************//
-Route::get('/two_wheeled',function (){return 'ثنائية العجـلات';});           // ثنائية العجـلات
-Route::get('/tricycle',function (){return '/ثلاثيـة العجـلات';});    //ثلاثيـة العجـلات
-Route::get('/four_wheel',function (){return 'رباعيـة العجـلات';});     //رباعيـة العجـلات
-Route::get('/motorcycles_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/two_wheeled',function (){
+    return redirect('/vichle');
+})->name('ثنائية العجـلات');
+
+            // ثنائية العجـلات
+Route::get('/tricycle',function (){
+    return redirect('/vichle');
+})->name('ثلاثيـة العجـلات');
+
+        //ثلاثيـة العجـلات
+Route::get('/four_wheel',function (){
+
+    return redirect('/vichle');
+})->name('رباعيـة العجـلات');
+   ;     //رباعيـة العجـلات
+Route::get('/motorcycles_new_advertiser',function (){
+
+    return redirect('/vichle');
+})->name('/المعلن الجديد');
+      //المعلن الجديد
 
 //****************************** العربات *****************************/
-Route::get('/trailers',function (){return 'مقطـورات';});           //مقطـورات
-Route::get('/carnivals',function (){return 'كرنفـالات';});    // كرنفـالات
-Route::get('/hovercraft',function (){return 'فـود تـرك';});     //فـود تـرك
-Route::get('/food_turk',function (){return '/البيـوت المتنقلـة';});      //البيـوت المتنقلـة
-Route::get('/wagons_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/trailers',function (){
+
+    return redirect('/vichle');
+})->name('مقطـورات');
+
+              //مقطـورات
+Route::get('/carnivals',function (){
+
+    return redirect('/vichle');
+})->name('كرنفـالات');
+
+       // كرنفـالات
+Route::get('/hovercraft',function (){
+
+    return redirect('/vichle');
+})->name('فـود تـرك');
+
+        //فـود تـرك
+Route::get('/food_turk',function (){
+
+
+    return redirect('/vichle');
+})->name('البيـوت المتنقلـة');
+
+          //البيـوت المتنقلـة
+Route::get('/wagons_new_advertiser',function (){
+
+
+    return redirect('/vichle');
+})->name('المعلن الجديد');
+       //المعلن الجديد
 
 /****************************************************************
  * **********         العقارات       ***************
  ****************************************************/
 
 //******************************  المباني ***************************************//
-Route::get('/villas',function (){ return 'فـلل';});           // فـلل
-Route::get('/buildings',function (){return 'مباني';});    //مباني
-Route::get('/apartments',function (){return 'شـقق';});     //شـقق
-Route::get('/builds_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/villas',function (){
+      return redirect('/property');
+})->name('فـلل');
+
+             // فـلل
+Route::get('/buildings',function (){
+
+    return redirect('/property');
+})->name('مباني');
+      //مباني
+Route::get('/apartments',function (){
+
+    return redirect('/property');
+})->name('شـقق');
+       //شـقق
+Route::get('/builds_new_advertiser',function (){
+
+    return redirect('/property');
+})->name('/المعلن الجديد');
+      //المعلن الجديد
 
 //****************************** الأراضي *****************************/
-Route::get('/schemes',function (){return 'مخططـات';});     //مخططـات
-Route::get('/land_plots',function (){return 'قطـع أرضي';});      //قطـع أرضي
-Route::get('/lands_new_advertiser',function (){return 'ssdsdsddsdsds';});     //المعلن الجديد
+Route::get('/schemes',function (){
+    return redirect('/property');
+})->name('مخططـات');
+        //مخططـات
+Route::get('/land_plots',function (){
+
+    return redirect('/property');
+})->name('قطـع أرضي');
+        //قطـع أرضي
+Route::get('/lands_new_advertiser',function (){
+
+    return redirect('/property');
+})->name('المعلن الجديد');
+       //المعلن الجديد
 
 /****************************************************************
  * **********         المجوهرات       ***************
  ****************************************************/
 //******************************  الماس ***************************************//
-Route::get('/stones',function (){return 'أحجـار';});    //أحجـار
-Route::get('/sweets',function (){return 'حُلـي';});     //حُلـي
-Route::get('/diamond_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/stones',function (){
+
+    return redirect('/jewelry');
+})->name('أحجـار');
+
+
+       //أحجـار
+Route::get('/sweets',function (){
+    return redirect('/jewelry');
+})->name('حُلـي');
+
+      //حُلـي
+Route::get('/diamond_new_advertiser',function (){
+
+    return redirect('/jewelry');
+})->name('المعلن الجديد');
+      //المعلن الجديد
 
 //****************************** الفضـة *****************************/
-Route::get('/mills_and_alloys',function (){return 'ُمـلات و سبـائك';});     //ُمـلات و سبـائك
-Route::get('/trinkets',function (){return ' حُلـي رجالي';});      //  حُلـي رجالي
-Route::get('/Women_jewelery',function (){return '  حُلـي نسـائية';});      //  حُلـي نسـائية
-Route::get('/silver_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/mills_and_alloys',function (){
+
+    return redirect('/jewelry');
+})->name('ُمـلات و سبـائك');
+
+       //ُمـلات و سبـائك
+Route::get('/trinkets',function (){
+
+    return redirect('/jewelry');
+})->name('حُلـي رجالي');
+         //  حُلـي رجالي
+Route::get('/Women_jewelery',function (){
+    return redirect('/jewelry');
+})->name('حُلـي نسـائية');
+         //  حُلـي نسـائية
+Route::get('/silver_new_advertiser',function (){
+
+    return redirect('/jewelry');
+})->name('المعلن الجديد');
+
+      //المعلن الجديد
 
 //****************************** الذهب *****************************/
-Route::get('/bullion',function (){return 'السبـائك';});     //السبـائك
-Route::get('/currencies',function (){return 'العمـلات';});      //العمـلات
-Route::get('/ornaments',function (){return 'الحُلـي';});      //الحُلـي
-Route::get('/gold_new_advertiser',function (){return '/المعلن الجديد';});     //المعلن الجديد
+Route::get('/bullion',function (){
+
+    return redirect('/jewelry');
+})->name('السبـائك');
+
+       //السبـائك
+Route::get('/currencies',function (){
+    return redirect('/jewelry');
+})->name('العمـلات');
+
+       //العمـلات
+Route::get('/ornaments',function (){
+    return redirect('/jewelry');
+})->name('الحُلـي');
+
+         //الحُلـي
+Route::get('/gold_new_advertiser',function (){
+
+    return redirect('/jewelry');
+})->name('المعلن الجديد');
+       //المعلن الجديد
 
 //************ أخري ثمينة *************************//
-Route::get('/bullion',function (){return 'لوحـات';});     //لوحـات
-Route::get('/hours',function (){return 'سـاعـات';});      //سـاعـات
-Route::get('/animals',function (){return 'حيـوانـات';});      //حيـوانـات
-Route::get('/antiques',function (){return 'تحـف';});      //تحـف
-Route::get('/other',function (){return 'أخري';});      //أخري
-Route::get('/others_precious',function (){return '/المعلن الجديد';});     //المعلن الجديد
+//************ أخري ثمينة *************************//
+//************ أخري ثمينة *************************//
+Route::get('/bullion',function (){
+
+    return redirect('/highvalue');
+})->name('لوحـات');
+       //لوحـات
+Route::get('/hours',function (){
+    return redirect('/highvalue');
+})->name('سـاعـات');
+
+         //سـاعـات
+Route::get('/animals',function (){
+
+    return redirect('/highvalue');
+})->name('حيـوانـات');
+      //حيـوانـات
+Route::get('/antiques',function (){
+
+    return redirect('/highvalue');
+})->name('تحـف');
+         //تحـف
+Route::get('/other',function (){
+
+    return redirect('/highvalue');
+})->name('أخري');
+
+       //أخري
+Route::get('/others_precious',function (){
+
+    return redirect('/highvalue');
+})->name('المعلن الجديد');
+        //المعلن الجديد
 
 
 
