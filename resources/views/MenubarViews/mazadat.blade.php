@@ -1,4 +1,4 @@
-@include('Headers.mazadat_header');
+@include('Headers.mazadat_header')
 <!-- ==================================================================== -->
 <nav aria-label="breadcrumb">
     <ol class="breadcrumb">

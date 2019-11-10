@@ -1,4 +1,5 @@
-@include('Headers.sales_header');
+@include('Headers.sales_header')
+
 
 <body >
 
