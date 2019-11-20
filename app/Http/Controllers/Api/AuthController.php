@@ -30,6 +30,7 @@ class AuthController extends Controller
 
     public function login(Request $request)
     {
+
         $validatedData = $request->validate([
             'email' => 'required|email',
             'password' => 'required',
@@ -39,9 +40,12 @@ class AuthController extends Controller
             $role = Auth::user()->role;
             $token = Auth::user()->createToken('My Token', [$role])->accessToken;
             return response()->json(['status'=>true,'token' => $token,'user'=>Auth::user()], 200);
-        } else {
+        }
+        else
+            {
             return response()->json(['status'=> false,'msg'=>'wrong data'], 401);
         }
+
     }
 
         public function logout() {

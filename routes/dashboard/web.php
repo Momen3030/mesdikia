@@ -1,13 +1,16 @@
 <?php
 
+//Route::get('/admin/login', "DashboardController@shlogin")->name('login');
+//Route::post('/admin/login', "DashboardController@login")->name('admin.login');
 Route::group(
     [
         'prefix' => LaravelLocalization::setLocale(),
-        'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath']
+        'middleware' => ['localeSessionRedirect', 'localizationRedirect', 'localeViewPath','auth','admin']
     ],
     function () {
         Route::prefix('dashboard')->name('dashboard.')->group(function () {
             Route::get('/index', "DashboardController@orders")->name('index');
+
             Route::get('/Accept/{id}/{type}/{vendor}/{color}/{year}/{new}/{price}/{model}/{ownerID}/{Auction_type}/{location}/{Guarant}/{viewers}/{image}/{status}/{producttime}', "AcceptOrderController@Accept_car_order")->name('accept_car');
             Route::get('/Accept_jew/{id}/{type}/{material}/{weight}/{price}/{ownerID}/{new}/{Auction_type}/{Guarant}/{viewers}/{image}/{status}/{producttime}', "AcceptOrderController@Accept_jewelry_order")->name('accept_jewelry');
             Route::get('/Accept_high/{id}/{type}/{price}/{new}/{ownerID}/{Auction_type}/{Guarant}/{viewers}/{image}/{status}/{producttime}', "AcceptOrderController@Accept_highvalue_order")->name('accept_highvalue');
@@ -21,12 +24,23 @@ Route::group(
             Route::resource('highvalues', 'highvalueController');
             Route::resource('properties', 'propertiesController');
             Route::resource('vichles', 'vichlesController');
-            Route::resource('categories','CategoryController');
+
 
             Route::resource('controls', 'controlsheader');
             Route::resource('messages','messages');
             Route::resource('supports','supports');
             Route::resource('addtextimage','AddImageTextController');
             Route::resource('advertising','advertisController');
+
+
+            Route::resource('categories','CategoryController');
+
+            Route::get('categories/{id}','Dashboard\CategoryController@show')->name('categories.addsubcategory');
+            Route::post('categories/add','CategoryController@addsub')->name('categories.addsubcat');
+
+
+
+
+
         });
     });

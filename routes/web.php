@@ -384,4 +384,4 @@ Route::get('/others_precious',function (){
 
 //============================= Categroies =============
 
-Route::get('/singlepage/{name}','HomeController@singlepage')->name('singlepage');
+Route::get('/singlepage/{pagename}','HomeController@singlepage')->name('singlepage');

@@ -13,7 +13,7 @@ class registercontroller extends Controller
             $register_model = new User();
             $un = $register_model->name = $request->get('user');
             $em = $register_model->email = $request->get('email');
-            $ps = $register_model->password = $request->get('pass');
+            $ps = $register_model->password = Hash::make($request->get('pass'));
             echo $un,$em,$ps;
             $register_model->save();
             $id=$register_model->id;

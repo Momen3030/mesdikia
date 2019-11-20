@@ -2,740 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="675838ab-9529-44c0-a5fd-8e3cd016956c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/categories/create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/categories/edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/learnlar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/learnlar.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/DashboardController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Momen.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/category.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/registercontroller.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/registercontroller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/Vehicles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-grid.min-4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap-rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap.min-4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/carsdetails.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/demo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/elastic_grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/fontawesome-all.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/fontawesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/forms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/home.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/hover-min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/hover.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/misdaqia-style-rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/misdaqia-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/owl.theme.default.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/profile_user.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/salesmain.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/css/style_mesd.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/AdminLTE-rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/AdminLTE.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/alt/AdminLTE-bootstrap-social.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/alt/AdminLTE-bootstrap-social.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/alt/AdminLTE-fullcalendar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/alt/AdminLTE-fullcalendar.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/alt/AdminLTE-select2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/alt/AdminLTE-select2.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/alt/AdminLTE-without-plugins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/alt/AdminLTE-without-plugins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/bootstrap-rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/font-awesome-rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/font-awesome.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/ionicons.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/ltr.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skin-blue.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/_all-skins.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/_all-skins.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-black-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-black-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-black.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-black.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-blue-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-blue-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-blue.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-green-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-green-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-green.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-purple-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-purple-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-purple.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-red-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-red-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-red.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-yellow-light.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-yellow-light.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/css/skins/skin-yellow.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/ionicons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/ionicons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/ionicons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/fonts/ionicons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/avatar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/avatar04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/avatar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/avatar3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/avatar5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/credit/american-express.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/credit/cirrus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/credit/mastercard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/credit/mestro.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/credit/paypal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/credit/paypal2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/credit/visa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/default-50x50.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/photo1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/photo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/photo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/photo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/user1-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/user2-160x160.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/user3-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/user4-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/user5-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/user6-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/user7-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/img/user8-128x128.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/adminlte.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/adminlte.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/custom/image_preview.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/custom/order.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/fastclick.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/jquery.number.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/jquery.slimscroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/pages/dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/pages/dashboard2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/js/printThis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/CHANGES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/adapters/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/build-config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/ckeditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/contents.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/bn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/bs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/es-mx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/is.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ka.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/mn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/oc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/sr-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es-mx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/about/dialogs/about.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/about/dialogs/logo_ckeditor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/clipboard/dialogs/paste.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/dialog/dialogDefinition.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/icons_hidpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/image/dialogs/image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/image/images/noimage.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/link/dialogs/anchor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/link/dialogs/link.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/link/images/anchor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/link/images/hidpi/anchor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/magicline/images/hidpi/icon-rtl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/magicline/images/hidpi/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/magicline/images/icon-rtl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/magicline/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/pastefromword/filter/default.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/scayt/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/scayt/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/scayt/dialogs/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/scayt/dialogs/options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/scayt/dialogs/toolbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/af.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/ar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/az.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/bg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/cs.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/cy.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/de-ch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/de.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/el.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/en-gb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/en.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/eo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/es-mx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/es.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/et.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/eu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/fi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/fr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/gl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/he.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/hr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/hu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/id.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/it.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/ja.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/km.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/ko.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/ku.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/lt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/lv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/nb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/nl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/no.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/oc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/pl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/pt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/ro.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/ru.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/si.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/sk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/sl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/sq.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/sv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/th.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/tr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/tt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/ug.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/uk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/vi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/lang/zh.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/specialchar/dialogs/specialchar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/table/dialogs/table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/tableselection/styles/tableselection.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/tabletools/dialogs/tableCell.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/widget/images/handle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/wsc/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/wsc/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/wsc/dialogs/ciframe.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/wsc/dialogs/wsc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/wsc/dialogs/wsc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/wsc/dialogs/wsc_ie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/plugins/wsc/skins/moono-lisa/wsc.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/css/samples.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/img/github-top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/img/header-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/img/header-separator.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/img/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/img/navigation-tip.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/js/sample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/js/sf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/ajax.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/api.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/appendto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/assets/inlineall/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/assets/outputxhtml/outputxhtml.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/assets/posteddata.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/assets/sample.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/assets/uilanguages/languages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/datafiltering.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/dialog/assets/my_dialog.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/dialog/dialog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/divreplace.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/enterkey/enterkey.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.fla" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/outputforflash.swf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/htmlwriter/assets/outputforflash/swfobject.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/htmlwriter/outputforflash.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/htmlwriter/outputhtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/inlineall.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/inlinebycode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/inlinetextarea.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/jquery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/magicline/magicline.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/readonly.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/replacebyclass.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/replacebycode.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/sample.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/sample.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/sample_posteddata.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/tabindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/toolbar/toolbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/uicolor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/uilanguages.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/wysiwygarea/fullpage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/old/xhtmlstyle.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/css/fontello.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/font/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/font/config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/font/fontello.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/js/abstracttoolbarmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/js/fulltoolbareditor.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/js/toolbarmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/js/toolbartextmodifier.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/codemirror.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/javascript.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/samples/toolbarconfigurator/lib/codemirror/show-hint.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/dialog.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/dialog_ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/dialog_ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/dialog_iequirks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/editor.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/editor_gecko.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/editor_ie.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/editor_ie8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/editor_iequirks.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/icons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/icons_hidpi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/hidpi/close.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/hidpi/lock-open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/hidpi/lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/hidpi/refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/lock-open.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/lock.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/refresh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/images/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/skins/moono-lisa/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/ckeditor/styles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/flat.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/flat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/flat@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/flat/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/futurico/futurico.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/futurico/futurico.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/futurico/futurico@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/icheck.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/line.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/line@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/line/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/minimal.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/minimal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/minimal@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/minimal/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/polaris/polaris.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/polaris/polaris.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/polaris/polaris@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/_all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/aero.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/aero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/aero@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/blue.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/blue@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/green.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/green@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/grey.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/grey.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/grey@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/orange.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/orange@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/pink.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/pink.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/pink@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/purple.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/purple.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/purple@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/red.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/red@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/square.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/square@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/yellow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/icheck/square/yellow@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/morris/morris.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/morris/morris.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/morris/morris.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/noty/noty.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/dashboard_files/plugins/noty/noty.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/FontAwesome.otf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/giphy.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/1s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/2s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/3s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/advertise.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/automobile-cars-headlights-120049.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/ayad.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/background-hd1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/banner-black1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/banner.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/bk9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/car2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/cloud-pattern.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/img9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/mazadat4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/misdaqia-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/moaaz.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/pexels-photo-919073.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/img/scroll-up2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/Vehicles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/bootstrap-4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/bootstrap.min-4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/carsdetails.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/code.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/forms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/home.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/html5shiv.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/jquery-1.11.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/jquery-3.2.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/jquery-3.3.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/jquery.nicescroll.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/mesdaqiascripte.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/profile_user.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/sales.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/salesmain.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/scripte.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/loader_gif.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/203649576.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/22_isco.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/33924065_217340605735602_8616411626565795840_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/592f4169b74af41b008b5977-750-563.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/5a2eed975635f.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/68709635_2473194432950471_2172319103115591680_n.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/7831631.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/8986dbc1-6b88-429e-af90-c43f3c2ab06c.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/Capture.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/DidXhE0X0AAS4AE.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/Hydrangeas.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/IMG_20160414_225946.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/Jellyfish.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/Koala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/LamborghiniRoadsterTA.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/Lighthouse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/Penguins.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/Tulips.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/accord-acoustic-art-background-classical-culture.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/ahmed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/bajaj_maxima_1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/cars1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/cars2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/cars3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/clothes.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/ewe.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/f81f37b8f1cf44c49041104ba2ee7e8b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/featured-new-template-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/ffff.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/imagdwws.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/image-0-480x320.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/images.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/img-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/img-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/img_12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/img_4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/index.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/index2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/inwex.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/jew22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/phpA3EC.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/rings.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/routes.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/said.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/vodafone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/productimages/wde.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/sp3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/uploads/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public_html/web.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/site.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/site.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/site.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/NavbarMenuBlade/Menublades.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/NavbarMenuBlade/Menublades.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/website/singlepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/singlepage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/dashboard/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dashboard/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -766,14 +47,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Dashboard/CategoryController.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/logincontroller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="77" column="26" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="26" />
+            <state relative-caret-position="405">
+              <caret line="34" column="45" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="45" />
               <folding>
-                <element signature="e#50#67#0#PHP" expanded="true" />
+                <element signature="e#40#62#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -782,17 +63,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/NavbarMenuBlade/Menublades.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="283" column="30" selection-start-line="283" selection-start-column="30" selection-end-line="283" selection-end-column="30" />
+            <state relative-caret-position="330">
+              <caret line="305" column="67" selection-start-line="305" selection-start-column="67" selection-end-line="305" selection-end-column="67" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/composer.json">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Dashboard/DashboardController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+            <state relative-caret-position="702">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -800,8 +81,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="191" column="58" selection-start-line="191" selection-start-column="48" selection-end-line="191" selection-end-column="58" />
+            <state relative-caret-position="343">
+              <caret line="386" column="34" selection-start-line="386" selection-start-column="12" selection-end-line="386" selection-end-column="34" />
+              <folding>
+                <element signature="e#7#29#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -809,35 +93,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="36" column="39" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/website/singlepage.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="347">
+              <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+              <folding>
+                <element signature="e#40#57#0#PHP" expanded="true" />
+                <marker date="1574283720009" expanded="true" signature="538:631" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/app.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/singlepage.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="231" column="6" lean-forward="true" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="6" />
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Helpers/PagesHelperFunction.php">
+        <entry file="file://$PROJECT_DIR$/routes/dashboard/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+              <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -847,6 +153,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>AppServiceProvider.php</find>
+      <find>HomeController</find>
+      <find>singlepage</find>
+      <find>MenubarViews.mesdakia</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -855,22 +164,36 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php" />
-        <option value="$PROJECT_DIR$/routes/dashboard/web.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/categories/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard/AddImageTextController.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/categories/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard/CategoryController.php" />
-        <option value="$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/lang/en/site.php" />
         <option value="$PROJECT_DIR$/resources/lang/ar/site.php" />
         <option value="$PROJECT_DIR$/app/Helpers/PagesHelperFunction.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
-        <option value="$PROJECT_DIR$/resources/views/website/singlepage.blade.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/resources/views/NavbarMenuBlade/Menublades.blade.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_11_10_201233_add_role_to_users.php" />
+        <option value="$PROJECT_DIR$/resources/views/dashboard/categories/createsub.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard/CategoryController.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Helpers/SubCat.php" />
+        <option value="$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomemesdakiaController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/registercontroller.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Dashboard/DashboardController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
+        <option value="$PROJECT_DIR$/routes/dashboard/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/NavbarMenuBlade/Menublades.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/website/singlepage.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" />
+        <option value="$PROJECT_DIR$/resources/views/singlepage.blade.php" />
       </list>
     </option>
   </component>
@@ -1008,12 +331,6 @@
               <item name="mesdikia" type="b2602c69:ProjectViewProjectNode" />
               <item name="mesdikia" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Helpers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mesdikia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mesdikia" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -1026,25 +343,19 @@
             <path>
               <item name="mesdikia" type="b2602c69:ProjectViewProjectNode" />
               <item name="mesdikia" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mesdikia" type="b2602c69:ProjectViewProjectNode" />
               <item name="mesdikia" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mesdikia" type="b2602c69:ProjectViewProjectNode" />
               <item name="mesdikia" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mesdikia" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mesdikia" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="NavbarMenuBlade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mesdikia" type="b2602c69:ProjectViewProjectNode" />
@@ -1068,18 +379,19 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/resources/views/" />
-      <recent name="E:\courses\starup\masdaqia\amin'\learnlar3\learnlar3\app\Http\Controllers\Dashboard" />
-      <recent name="E:\courses\starup\masdaqia\Ameer\learnlar2.3\learnlar2\learnlar2\public" />
-      <recent name="E:\courses\starup\masdaqia\Ameer\learnlar2.3\learnlar2\learnlar2\resources\views\MenubarViews" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\momen\Desktop\mesdikia\resources\views\dashboard\categories" />
       <recent name="E:\courses\starup\masdaqia\amin'\learnlar3\learnlar3\resources\views\dashboard" />
       <recent name="E:\courses\starup\masdaqia\Ahmed ramadan\learnlar2\learnlar2\public\dashboard_files\css" />
       <recent name="E:\courses\starup\masdaqia\Ahmed ramadan\learnlar2\learnlar2\public\css" />
       <recent name="E:\courses\starup\masdaqia\Ahmed ramadan\learnlar2\learnlar2\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\momen\Desktop\mesdikia\resources\views" />
+      <recent name="$PROJECT_DIR$/resources/views/" />
+      <recent name="E:\courses\starup\masdaqia\amin'\learnlar3\learnlar3\app\Http\Controllers\Dashboard" />
+      <recent name="E:\courses\starup\masdaqia\Ameer\learnlar2.3\learnlar2\learnlar2\public" />
+      <recent name="E:\courses\starup\masdaqia\Ameer\learnlar2.3\learnlar2\learnlar2\resources\views\MenubarViews" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1151,25 +463,29 @@
       <workItem from="1573028165253" duration="1620000" />
       <workItem from="1573149589975" duration="601000" />
       <workItem from="1573291062848" duration="14312000" />
+      <workItem from="1573380841308" duration="648000" />
+      <workItem from="1573415606487" duration="14388000" />
+      <workItem from="1573460406185" duration="859000" />
+      <workItem from="1573462198583" duration="1498000" />
+      <workItem from="1573503785544" duration="4209000" />
+      <workItem from="1573683861167" duration="676000" />
+      <workItem from="1574028012219" duration="3446000" />
+      <workItem from="1574067825587" duration="494000" />
+      <workItem from="1574267565177" duration="8122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14312000" />
+    <option name="totallyTimeSpent" value="48652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.23240589" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -1177,32 +493,37 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3453355" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
     <layout-to-restore>
-      <window_info id="npm" order="0" side_tool="true" />
-      <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.10310966" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" />
-      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2118003" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3453355" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1300,13 +621,13 @@
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/API/UserApiController.php</url>
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/Api/UserApiController.php</url>
           <line>207</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/MenubarViews/sales.blade.php</url>
-          <line>210</line>
+          <line>215</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
@@ -1358,13 +679,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1400,13 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="30" column="45" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dashboard/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1466,24 +773,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/categories/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Dashboard/AddImageTextController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="117" column="65" lean-forward="true" selection-start-line="114" selection-start-column="7" selection-end-line="117" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -1511,62 +804,244 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_11_10_201233_add_role_to_users.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="191" column="58" selection-start-line="191" selection-start-column="48" selection-end-line="191" selection-end-column="58" />
+        <state relative-caret-position="204">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="36" column="39" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/website/singlepage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="293">
+          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Dashboard/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="77" column="26" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="26" />
+        <state relative-caret-position="2079">
+          <caret line="79" column="33" selection-start-line="79" selection-start-column="33" selection-end-line="79" selection-end-column="33" />
           <folding>
             <element signature="e#50#67#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Helpers/PagesHelperFunction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        <state relative-caret-position="1080">
+          <caret line="40" column="36" selection-start-line="40" selection-start-column="36" selection-end-line="40" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/NavbarMenuBlade/Menublades.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="283" column="30" selection-start-line="283" selection-start-column="30" selection-end-line="283" selection-end-column="30" />
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/categories/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="19" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Helpers/PagesHelperFunction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="231" column="6" lean-forward="true" selection-start-line="231" selection-start-column="6" selection-end-line="231" selection-end-column="6" />
+        <state relative-caret-position="6183">
+          <caret line="229" column="13" selection-start-line="229" selection-start-column="9" selection-end-line="229" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/CommonController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+          <folding>
+            <element signature="e#44#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Vichle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/categories/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomemesdakiaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+          <folding>
+            <element signature="e#40#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/registercontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Api/AuthController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="e#44#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Helpers/SubCat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/categories/createsub.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="38" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="66" column="14" selection-start-line="66" selection-start-column="9" selection-end-line="66" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#section#0;n#aside#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/logincontroller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="34" column="45" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="45" />
+          <folding>
+            <element signature="e#40#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/IsAdmin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dashboard/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="5" column="5" lean-forward="true" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="386" column="34" selection-start-line="386" selection-start-column="12" selection-end-line="386" selection-end-column="34" />
+          <folding>
+            <element signature="e#7#29#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Dashboard/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/NavbarMenuBlade/Menublades.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="305" column="67" selection-start-line="305" selection-start-column="67" selection-end-line="305" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="35" column="26" lean-forward="true" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#40#57#0#PHP" expanded="true" />
+            <marker date="1574283720009" expanded="true" signature="538:631" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/singlepage.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>

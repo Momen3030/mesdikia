@@ -26,18 +26,34 @@
                                 <tr class="tr_header">
                                     <th>@lang('site.id')</th>
                                     <th>@lang('site.name')</th>
+                                    <th>Sub Cat</th>
                                     <th>@lang('site.image')</th>
                                     <th></th>
+
 {{--                                    <th>@lang('site.ownerID')</th>--}}
 {{--                                    <th>@lang('site.viewers')</th>--}}
 {{--                                    <th>@lang('site.producttime')</th>--}}
                                 </tr>
                                 </thead>
-                                @foreach($categories as $category)
+
                                     <tbody>
+                                    @foreach($categories as $category)
                                     <tr>
+
                                         <td>{{$category->id}} </td>
                                         <td>{{$category->name}} </td>
+                                        <td>
+{{--                                            {{SubCat()}}--}}
+                                            @if(is_null(SubCat($category->id)))
+                                                <h1>fsdfsd </h1>
+                                             @else
+                                            @foreach(SubCat($category->id) as $cat)
+                                                    {{$cat->name}} <br>
+
+
+                                            @endforeach
+                                            @endif
+                                        </td>
                                         <td><img src="/productimages/{{$category->image}}" alt="error"></td>
 
                                         <td>
@@ -47,10 +63,19 @@
                                                 {{method_field('delete')}}
                                                 <input type="submit" value="@lang('site.delete')" class="btn btn-danger">
                                             </form>
+                                            <button onclick="window.location='{{route('dashboard.categories.addsubcategory',['id'=>$category->id])}}'" class="btn btn-primary">@lang('site.add_subcategory')</button>
                                         </td>
+{{--                                        @if($category->hasparent==null)--}}
+{{--                                            <td>@lang('site.nothaveanycat')</td>--}}
+{{--                                            @else--}}
+
+
+{{--                                            @endif--}}
+
                                     </tr>
+                                    @endforeach
                                     </tbody>
-                                @endforeach
+
                             </table>
                         </div>
                         <div class="row">

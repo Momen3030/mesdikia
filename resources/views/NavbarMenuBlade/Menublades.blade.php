@@ -284,8 +284,44 @@
                     </li>
 
                     @foreach (PagesHelperFunction() as $category)
+                    <li class="dropdown dropbtn">
+                        @if ($category->hasparent==null)
+                            <a href="{{route('singlepage',['pagename'=>$category->$name])}}">{{$category->name}}</a>
+                        @endif
+                        <div class="dropdown-content">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <h4>{{$category->name}} <hr class="ln"></h4>
+
+                                    @if(is_null(SubCat($category->id)))
+                                        <div class="col-md-3">
+                                            <img class="img-responsive img_pos"  src="img/misdaqia-logo.png" alt="Chania" width="120" height="120">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="img-responsive img_pos"  src="img/misdaqia-logo.png" alt="Chania" width="120" height="120">
+                                        </div>
+                                        <div class="col-md-3">
+                                            <img class="img-responsive img_pos"  src="img/misdaqia-logo.png" alt="Chania" width="120" height="120">
+                                        </div>
+                                    @else
+                                        @foreach(SubCat($category->id) as $cat)
+                                            <a href="/singlepage/{{$category->name}}">{{$cat->name}} </a>
+{{--                                            <a  href="{{route('singlepage',['pagename'=>$page->$category])}}">{{$cat->name}} </a>--}}
+                                        @endforeach
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+
+
+
+
+
+
 {{--                        @if (app()->getLocale()=='en')--}}
-                            <li><a href="{{route('singlepage',['pagename'=>$page->$category])}}">{{$category->name}}</a></li>
+{{--                            <li><a href="{{route('singlepage',['pagename'=>$page->$category])}}">{{$category->name}}</a></li>--}}
 
 {{--                        @else--}}
 {{--                            <li><a href="{{route('singlepage',['pagename'=>$page->pagename])}}">{{$page->pagename_ar}}</a></li>--}}

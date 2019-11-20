@@ -64,9 +64,32 @@ class CategoryController extends Controller
      */
     public function show($id)
     {
-        //
+        $catagory=Category::findOrfail($id);
+        return view('dashboard.categories.createsub',compact('catagory'));
     }
 
+    public function addsub(Request $request){
+//        dd($request->all());
+        $request->validate(
+            [
+                'image'=>'required',
+                'subname'=>'required|string|max:255'
+            ]
+        );
+
+        $category = new Category();
+        $imageName = $request->file('image')->getClientOriginalName();
+        $request->file('image')->move(public_path('productimages'), $imageName);
+        $category->image = $imageName;
+        $category->name = $request->input('subname');
+        $category->hasparent = $request->input('cat_id');
+        $category->save();
+
+        session()->flash('success',__('site.added_successfully'));
+        return redirect()->route('dashboard.categories.index');
+
+
+    }
     /**
      * Show the form for editing the specified resource.
      *
